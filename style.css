@@ -1,0 +1,53 @@
+body {
+    font-family: "Playwrite DE Grund", cursive;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('vid.gif') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px black;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px); 
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    background:rgb(17, 20, 65);
+    color: aliceblue; 
+
+}
+input[type="text"] {
+    width: 60%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px;
+    margin-left: 5px;
+    background-color:rgb(19, 19, 63) ;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
